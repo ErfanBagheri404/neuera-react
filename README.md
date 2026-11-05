@@ -1,3 +1,35 @@
-![image](https://github.com/user-attachments/assets/9ab09991-aec3-4ea6-bb81-830c7b9eff35)
-![image](https://github.com/user-attachments/assets/c6b9d4eb-ae69-4e9d-a2fc-f548aacbdab1)
-![image](https://github.com/user-attachments/assets/45899e3b-8a7d-4812-b026-b9b52a3eb303)
+# Neuera - marketing site
+
+Responsive one-page marketing site built with React + Vite. Each block is its own
+component, so sections can be reordered or removed without touching the rest.
+
+## Sections (in render order)
+
+`Header`, `TopSection`, `InfiniteScroll`, `Benefits`, `Points`, `Projects`,
+`Slogan`, `Comments`, `PreFooter`, `Footer`.
+
+## Run
+
+```bash
+git clone https://github.com/ErfanBagheri404/neuera-react.git
+cd neuera-react
+```
+
+```bash
+npm install
+npm run dev
+```
+
+`npm run build` emits a static bundle to `dist/`.
+
+## Stack
+
+React 18 - Vite - CSS modules/plain CSS per component.
+
+## Structure
+
+| path | role |
+|---|---|
+| `src/App.jsx` | section order |
+| `src/components/` | one file per section |
+| `src/assets/` | images and logos |
